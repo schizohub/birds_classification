@@ -8,8 +8,8 @@ import altair as alt
 import pandas as pd
 import numpy as np
 
-temp = pathlib.PosixPath
-pathlib.PosixPath = pathlib.WindowsPath
+# temp = pathlib.PosixPath
+# pathlib.PosixPath = pathlib.WindowsPath
 
 plt = platform.system()
 if plt=='Linux': pathlib.WindowsPath= pathlib.PosixPath
