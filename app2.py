@@ -16,7 +16,7 @@ if plt=='Linux': pathlib.WindowsPath= pathlib.PosixPath
 
 
 st.title('Classification of some bird species')
-st.write("This web app can be able to predict several species of birds, there are birds which has been drawn below and first table indicates that. So simple web app, could you please check?")
+st.write("This web app can be able to predict several species of birds through classifying images of them, there are some birds which has been drawn at the first table which indicates how many number of birds. So simple web app, could you please check?")
 st.write('Would you like to upload birds images in order to know how my deep learning model works and its prediction of accuracy?. If yes, then let\'s go!')
 
 st.write('Now, you can be able to upload some species pictures that I used to build this model, so there are:')
@@ -66,7 +66,7 @@ if file:
         
 
         st.write("Actually this is my second deep learning project kinda real project, so that it could be some failure to differentiate images. Firstly I celled once my code on colab, it showed 70% ,accuracy in RESNET34 architecture, and VGG16 architechture has shown 71 %, and I wrote RESNET50 architechture, and BOOM!!!💥💥💥 Yeah, it's eventually released low accuracy but a little more rather than other arch. That's why I chose RESNET50 arch.,cause of being accuracy has shown 73%")
-        st.markdown('Soon, **_some news upcoming!!!_ I\'m gonna return new projects, till then**, see around.')
+        st.markdown('Soon, **_some news upcoming!!!_ I\'m gonna return new projects, till then**, see around.👋👋🧑🏻‍💻🧑🏻‍💻🧑🏻‍💻')
 
 
 
