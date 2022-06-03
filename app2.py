@@ -16,6 +16,7 @@ if plt=='Linux': pathlib.WindowsPath= pathlib.PosixPath
 
 
 st.title('Classification of some bird species')
+st.write("This web app can be able to predict several species of birds, there are birds which has been drawn below and first table indicates that. So simple web app, could you please check?")
 st.write('Would you like to upload birds images in order to know how my deep learning model works and its prediction of accuracy?. If yes, then let\'s go!')
 
 st.write('Now, you can be able to upload some species pictures that I used to build this model, so there are:')
