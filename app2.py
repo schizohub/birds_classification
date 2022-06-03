@@ -4,7 +4,6 @@ import plotly.express as px
 import pathlib
 import platform
 import matplotlib.pyplot as plt
-import seaborn as sns
 import altair as alt
 import pandas as pd
 import numpy as np
@@ -52,7 +51,7 @@ if file:
         st.text('This is prediction table of image that you sent')
         st.table(df.T)
         df1 = pd.DataFrame([arr1], columns=df.columns)
-        # figma = sns.barplot(x=df.T.index, y=df1.T.values)
+        
         st.bar_chart(df1.T)        
         source = pd.DataFrame({
             'Birds': ['Canary', 'Chicken', 'Duck', 'Eagle', 'Falcon', 'Goose','Magpie', 'Owl', 'Penguin', 'Raven', 'Sparrow', 'Swan', 'Turkey', 'Woodpecker'],
@@ -63,7 +62,7 @@ if file:
             y='Prediction'
         )
         st.altair_chart(figma)
-        # st.write(figma)
+        
 
         st.write("Actually this is my second deep learning project kinda real project, so that it could be some failure to differentiate images. Firstly I celled once my code on colab, it showed 70% ,accuracy in RESNET34 architecture, and VGG16 architechture has shown 71 %, and I wrote RESNET50 architechture, and BOOM!!!💥💥💥 Yeah, it's eventually released low accuracy but a little more rather than other arch. That's why I chose RESNET50 arch.,cause of being accuracy has shown 73%")
         st.markdown('Soon, **_some news upcoming!!!_ I\'m gonna return new projects, till then**, see around.')
