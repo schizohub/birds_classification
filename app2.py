@@ -2,7 +2,7 @@ import streamlit as st
 from fastai.vision.all import *
 import plotly.express as px
 import pathlib
-# import platform
+import platform
 import matplotlib.pyplot as plt
 import seaborn as sns
 import altair as alt
@@ -12,8 +12,8 @@ import numpy as np
 temp = pathlib.PosixPath
 pathlib.PosixPath = pathlib.WindowsPath
 
-# plt = platform.system()
-# if plt=='Linux': pathlib.WindowsPath= pathlib.PosixPath
+plt = platform.system()
+if plt=='Linux': pathlib.WindowsPath= pathlib.PosixPath
 
 
 st.title('Classification of some bird species')
